@@ -9,9 +9,9 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "/home/nijun/文档/GitFiles/cppFiles",
+      "cwd": "/home/nj/Documents/cppFiles",
       "environment": [],
-      "program": "/home/nijun/文档/GitFiles/cppFiles/build/Debug/outDebug",
+      "program": "/home/nj/Documents/cppFiles/Class",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
@@ -22,7 +22,8 @@
           "text": "-enable-pretty-printing",
           "ignoreFailures": true
         }
-      ]
+      ],
+      "preLaunchTask": "Class_run"
     }
   ]
 }
