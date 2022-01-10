@@ -1,7 +1,7 @@
 /*
  * @Author: Jack
  * @Date: 2022-01-10 20:22:10
- * @LastEditTime: 2022-01-10 22:21:18
+ * @LastEditTime: 2022-01-10 22:37:49
  * @LastEditors: your name
  * @Description: koro1FileHeader
  * @FilePath: /cppFiles/src/Time.cpp
@@ -31,4 +31,11 @@ Time::Time(int tmphour, int tmpmin, int tmpsecond)
     min = tmpmin;
     second = tmpsecond;
     initMillTime(0);
+}
+Time::Time()
+{
+    hour = 12;
+    min = 12;
+    second = 12;
+    initMillTime(12);
 }

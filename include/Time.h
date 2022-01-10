@@ -1,7 +1,7 @@
 /*
  * @Author: Jack
  * @Date: 2022-01-10 20:21:43
- * @LastEditTime: 2022-01-10 22:22:38
+ * @LastEditTime: 2022-01-10 22:37:28
  * @LastEditors: your name
  * @Description: koro1FileHeader
  * @FilePath: /cppFiles/include/Time.h
@@ -12,6 +12,7 @@
 class Time{  //定义时间类
     public:
         Time(int tmphour, int tmpmin, int tmpsecond); //构造函数
+        Time();
     private:
         int millisecond; //毫秒
         void initMillTime(int mls);

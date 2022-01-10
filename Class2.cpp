@@ -1,7 +1,7 @@
 /*
  * @Author: Jack
  * @Date: 2021-12-23 15:09:08
- * @LastEditTime: 2022-01-10 22:32:07
+ * @LastEditTime: 2022-01-10 22:44:33
  * @LastEditors: your name
  * @Description: koro1FileHeader
  * @FilePath: /cppFiles/Class2.cpp
@@ -30,6 +30,20 @@ int main()
     Time mytime4{2, 7, 9};
     Time mytime5 = {2, 7, 9};
 
+    //二、多个构造函数
+        //一个类中可以有多个构造函数，提供多个初始化方法，但是多个构造函数之间总要有不一样的地方
+    Time mytime11 = Time();//创建类对象,调用Time::Time()
+    Time mytime12; 
+    Time mytime13 = Time{};
+    Time mytime14{};
+    Time mytime15 = {};
+
+    //对象拷贝
+    Time mytime;//可以调用构造函数
+    Time mytime21 = mytime;//后四个属于对象拷贝，没有调用构造函数，调用的不是传统意义的构造函数，实际调用拷贝构造函数
+    Time mytime22(mytime); 
+    Time mytime23 = {mytime};
+    Time mytime24{mytime};
 
 
     return 0;
