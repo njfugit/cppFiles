@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Time.h
+
+/home/nijun/Documents/cppFiles/Class.cpp
+Time.h
+/home/nijun/Documents/cppFiles/Time.h
+iostream
+-
+
+/home/nijun/Documents/cppFiles/src/Time.cpp
+Time.h
+/home/nijun/Documents/cppFiles/src/Time.h
+iostream
+-
+

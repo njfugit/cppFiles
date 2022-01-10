@@ -1,18 +1,36 @@
-{
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
+{   
     "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build"
+    },
     "tasks": [
         {
-            "label": "Class_run",
             "type": "shell",
-            "command": "g++",
+            "label": "cmake",
+            "command": "cmake",
             "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "Class"
-            ],
+                ".."
+            ]
+        },
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": [
+
+            ]
+        },
+        {
+            "label": "Class_run",
+			"dependsOrder": "sequence", // 按列出的顺序执行任务依赖项
+            "dependsOn":[
+                "cmake",
+                "make"
+            ]
         }
     ]
+
 }

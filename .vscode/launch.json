@@ -9,9 +9,9 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "/home/nj/Documents/cppFiles",
+      "cwd": "/home/nijun/Documents/cppFiles",
       "environment": [],
-      "program": "/home/nj/Documents/cppFiles/Class",
+      "program": "/home/nijun/Documents/cppFiles/build/Class",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",

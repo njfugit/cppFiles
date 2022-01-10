@@ -1,0 +1,3 @@
+/home/nijun/Documents/cppFiles/build/CMakeFiles/rebuild_cache.dir
+/home/nijun/Documents/cppFiles/build/CMakeFiles/Class.dir
+/home/nijun/Documents/cppFiles/build/CMakeFiles/edit_cache.dir
