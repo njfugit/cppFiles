@@ -1,7 +1,7 @@
 /*
  * @Author: Jack
  * @Date: 2021-12-23 15:09:08
- * @LastEditTime: 2022-01-10 00:03:51
+ * @LastEditTime: 2022-01-10 16:23:12
  * @LastEditors: your name
  * @Description: koro1FileHeader
  * @FilePath: /cppFiles/Class.cpp
@@ -39,7 +39,7 @@ int main()
     cout<< someone.number <<endl;
 
     //(4)public成员提供类的接口，供外界调用 private成员提供各种实现类功能的细节方法，不暴露给使用者，外界无法使用这些成员
-    //(5)struct是成员默认为public的class
+    //(5)struct是成员默认为public的class,
 
     return 0;
 }
