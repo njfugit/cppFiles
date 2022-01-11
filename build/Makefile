@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Class
+# Target rules for targets named Class2
 
 # Build rule for target.
-Class: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Class
-.PHONY : Class
+Class2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Class2
+.PHONY : Class2
 
 # fast build rule for target.
-Class/fast:
-	$(MAKE) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/build
-.PHONY : Class/fast
+Class2/fast:
+	$(MAKE) -f CMakeFiles/Class2.dir/build.make CMakeFiles/Class2.dir/build
+.PHONY : Class2/fast
 
-Class.o: Class.cpp.o
+Class2.o: Class2.cpp.o
 
-.PHONY : Class.o
+.PHONY : Class2.o
 
 # target to build an object file
-Class.cpp.o:
-	$(MAKE) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/Class.cpp.o
-.PHONY : Class.cpp.o
+Class2.cpp.o:
+	$(MAKE) -f CMakeFiles/Class2.dir/build.make CMakeFiles/Class2.dir/Class2.cpp.o
+.PHONY : Class2.cpp.o
 
-Class.i: Class.cpp.i
+Class2.i: Class2.cpp.i
 
-.PHONY : Class.i
+.PHONY : Class2.i
 
 # target to preprocess a source file
-Class.cpp.i:
-	$(MAKE) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/Class.cpp.i
-.PHONY : Class.cpp.i
+Class2.cpp.i:
+	$(MAKE) -f CMakeFiles/Class2.dir/build.make CMakeFiles/Class2.dir/Class2.cpp.i
+.PHONY : Class2.cpp.i
 
-Class.s: Class.cpp.s
+Class2.s: Class2.cpp.s
 
-.PHONY : Class.s
+.PHONY : Class2.s
 
 # target to generate assembly for a file
-Class.cpp.s:
-	$(MAKE) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/Class.cpp.s
-.PHONY : Class.cpp.s
+Class2.cpp.s:
+	$(MAKE) -f CMakeFiles/Class2.dir/build.make CMakeFiles/Class2.dir/Class2.cpp.s
+.PHONY : Class2.cpp.s
 
 src/Time.o: src/Time.cpp.o
 
@@ -156,7 +156,7 @@ src/Time.o: src/Time.cpp.o
 
 # target to build an object file
 src/Time.cpp.o:
-	$(MAKE) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/src/Time.cpp.o
+	$(MAKE) -f CMakeFiles/Class2.dir/build.make CMakeFiles/Class2.dir/src/Time.cpp.o
 .PHONY : src/Time.cpp.o
 
 src/Time.i: src/Time.cpp.i
@@ -165,7 +165,7 @@ src/Time.i: src/Time.cpp.i
 
 # target to preprocess a source file
 src/Time.cpp.i:
-	$(MAKE) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/src/Time.cpp.i
+	$(MAKE) -f CMakeFiles/Class2.dir/build.make CMakeFiles/Class2.dir/src/Time.cpp.i
 .PHONY : src/Time.cpp.i
 
 src/Time.s: src/Time.cpp.s
@@ -174,7 +174,7 @@ src/Time.s: src/Time.cpp.s
 
 # target to generate assembly for a file
 src/Time.cpp.s:
-	$(MAKE) -f CMakeFiles/Class.dir/build.make CMakeFiles/Class.dir/src/Time.cpp.s
+	$(MAKE) -f CMakeFiles/Class2.dir/build.make CMakeFiles/Class2.dir/src/Time.cpp.s
 .PHONY : src/Time.cpp.s
 
 # Help Target
@@ -184,11 +184,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Class"
+	@echo "... Class2"
 	@echo "... edit_cache"
-	@echo "... Class.o"
-	@echo "... Class.i"
-	@echo "... Class.s"
+	@echo "... Class2.o"
+	@echo "... Class2.i"
+	@echo "... Class2.s"
 	@echo "... src/Time.o"
 	@echo "... src/Time.i"
 	@echo "... src/Time.s"

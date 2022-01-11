@@ -1,7 +1,7 @@
 /*
  * @Author: Jack
  * @Date: 2022-01-10 20:22:10
- * @LastEditTime: 2022-01-10 22:37:49
+ * @LastEditTime: 2022-01-11 16:48:09
  * @LastEditors: your name
  * @Description: koro1FileHeader
  * @FilePath: /cppFiles/src/Time.cpp
@@ -26,12 +26,21 @@ void Time::initMillTime(int mls)
 
 //构造函数的实现
 Time::Time(int tmphour, int tmpmin, int tmpsecond)
+    :hour(tmphour), min(tmpmin), second(tmpsecond), millisecond(0)
 {
-    hour = tmphour;
+    /* hour = tmphour;
     min = tmpmin;
     second = tmpsecond;
+    initMillTime(0); */
+}
+Time::Time(int tmphour)
+{
+    hour = tmphour;
+    min = 12;
+    second = 13;
     initMillTime(0);
 }
+
 Time::Time()
 {
     hour = 12;

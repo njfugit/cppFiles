@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Class2.dir/Class2.cpp.o CMakeFiles/Class2.dir/src/Time.cpp.o  -o Class2 
