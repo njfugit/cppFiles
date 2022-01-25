@@ -1,7 +1,7 @@
 /*
  * @Author: Jack
  * @Date: 2022-01-10 20:22:10
- * @LastEditTime: 2022-01-11 16:48:09
+ * @LastEditTime: 2022-01-23 17:22:12
  * @LastEditors: your name
  * @Description: koro1FileHeader
  * @FilePath: /cppFiles/src/Time.cpp
@@ -26,7 +26,7 @@ void Time::initMillTime(int mls)
 
 //构造函数的实现
 Time::Time(int tmphour, int tmpmin, int tmpsecond)
-    :hour(tmphour), min(tmpmin), second(tmpsecond), millisecond(0)
+    :hour(tmphour), min(tmpmin), second(tmpsecond), millisecond(0) //构造函数初始化列表，对应其成员变量
 {
     /* hour = tmphour;
     min = tmpmin;
@@ -47,4 +47,13 @@ Time::Time()
     min = 12;
     second = 12;
     initMillTime(12);
+}
+
+        
+        
+void Time::addhour(int tmphour) const //常量成员函数
+{
+    tmphour = 1;
+    //hour += tmphour; //无法修改成员变量值
+        
 }

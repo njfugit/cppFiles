@@ -1,10 +1,10 @@
 /*
  * @Author: Jack
  * @Date: 2021-12-20 22:32:27
- * @LastEditTime: 2021-12-22 22:43:36
+ * @LastEditTime: 2022-01-15 21:27:17
  * @LastEditors: your name
  * @Description: koro1FileHeader
- * @FilePath: /C++/diedaiqi.cpp
+ * @FilePath: /cppFiles/diedaiqi.cpp
  * 可以输入预定的版权声明、个性签名、空行等
  */
 #include <iostream>
@@ -240,7 +240,7 @@ if(p_tmp != nullptr)
 
 //要释放内存，自己new的要自己释放，否则会造成内存泄漏
 std::vector<conf *> ::iterator pos;
-for(pos = conflist.begin(), pos != conflist.end(); ++ pos)
+for(pos = conflist.begin(); pos != conflist.end(); ++pos)
 {
     delete (*pos); //*pos才是指针，这句必须要有
 }

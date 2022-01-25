@@ -1,7 +1,7 @@
 /*
  * @Author: Jack
  * @Date: 2022-01-10 20:21:43
- * @LastEditTime: 2022-01-11 16:09:51
+ * @LastEditTime: 2022-01-23 17:14:44
  * @LastEditors: your name
  * @Description: koro1FileHeader
  * @FilePath: /cppFiles/include/Time.h
@@ -22,6 +22,9 @@ class Time{  //定义时间类
         int min;
         int second;
         void initTime(int tmphour, int tmpmin, int tmpsecond);
+    public:
+        void addhour(int tmphour) const; //当作内联函数去处理
+        
     
 };
 

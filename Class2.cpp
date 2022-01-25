@@ -1,7 +1,7 @@
 /*
  * @Author: Jack
  * @Date: 2021-12-23 15:09:08
- * @LastEditTime: 2022-01-11 16:15:40
+ * @LastEditTime: 2022-01-15 21:08:47
  * @LastEditors: your name
  * @Description: koro1FileHeader
  * @FilePath: /cppFiles/Class2.cpp
@@ -69,6 +69,9 @@ int main()
 
 
     //五、构造函数初始化列表
+    
+    //(1)显得更专业，尽可能都用这种方式成员变量初始化
+    //(2)直接初始化成员变量，不需要函数体的部分先初始化再赋值，提高效率
     
 
     return 0;
